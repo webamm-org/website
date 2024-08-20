@@ -1,0 +1,55 @@
+<!-- Blog Article -->
+<div class="max-w-3xl px-4 pt-6 lg:pt-10 pb-12 sm:px-6 lg:px-8 mx-auto">
+  <div class="max-w-2xl">
+    <!-- Content -->
+    <div class="space-y-5 md:space-y-8">
+      <div class="space-y-3">
+        <h2 class="text-2xl font-bold md:text-3xl dark:text-white">An alternative approach to building web applications</h2>
+
+        <p class="text-lg text-gray-800 dark:text-neutral-200">These days, when you want to accelerate the development of a web application, you have two common choices: using AI tools or solutions like boilerplates and SaaS templates.</p>
+      </div>
+
+      <div class="space-y-3">
+        <h3 class="text-2xl font-semibold dark:text-white">The problem with AI-generated code</h3>
+
+        <p class="text-lg text-gray-800 dark:text-neutral-200">Hallucinations. Because of the nature of LLMs, it’s often difficult to generate more advanced code that is up-to-date and of high quality.</p>
+      </div>
+
+      <figure>
+        <%= image_tag("ai_without_webamm.jpg", class: "w-full object-cover rounded-xl") %>
+        <figcaption class="mt-3 text-sm text-center text-gray-500 dark:text-neutral-500">
+          AI without WEBAMM
+        </figcaption>
+      </figure>
+
+      <div class="space-y-3">
+        <h3 class="text-2xl font-semibold dark:text-white">The problem with boilerplates and SaaS templates</h3>
+
+        <p class="text-lg text-gray-800 dark:text-neutral-200">You often get the code you don’t need. A boilerplate or template that would satisfy everyone has not been created to paraphrase a famous saying.</p>
+      </div>
+
+      <div class="space-y-3">
+        <h3 class="text-2xl font-semibold dark:text-white">The solution</h3>
+
+        <p class="text-lg text-gray-800 dark:text-neutral-200">Web Application Metadata Markup - a simple structure that describes the nature of web application: the database schema, CRUD specification, authentication, and authorization, just to name a few. You prompt the AI with an application description to get such a structure.</p>
+      </div>
+
+      <figure>
+        <%= image_tag("ai_with_webamm.jpg", class: "w-full object-cover rounded-xl") %>
+        <figcaption class="mt-3 text-sm text-center text-gray-500 dark:text-neutral-500">
+          AI with WEBAMM
+        </figcaption>
+      </figure>
+
+      <div class="space-y-3">
+        <p class="text-lg text-gray-800 dark:text-neutral-200">Who generates the code then? Rendering engine prepared by humans. Because modern frameworks like Ruby on Rails, Nest.js, Django, or Laravel follow patterns, generating the code that will help you accelerate your application development by weeks is possible.</p>
+      </div>
+
+      <div class="space-y-3">
+        <p class="text-lg text-gray-800 dark:text-neutral-200">It’s enough to throw away SaaS templates and boilerplates and start with a unique code for your project. Most of the projects are more or less based on CRUD anyway. And guess what, it’s open source.</p>
+      </div>
+    </div>
+    <!-- End Content -->
+  </div>
+</div>
+<!-- End Blog Article -->
